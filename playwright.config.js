@@ -15,8 +15,8 @@ import { on } from 'events';
  */
 export default defineConfig({
   //testDir: './tests',
-//testDir:'./tests/UI_Tests/',
-testDir:'./tests/UI_Special controls',
+testDir:'./tests/UI_Tests/',
+//testDir:'./tests/UI_Special controls',
 // testDir:'./tests/Anuja_Practice_Tests/',
  // timeout:60000,
   
