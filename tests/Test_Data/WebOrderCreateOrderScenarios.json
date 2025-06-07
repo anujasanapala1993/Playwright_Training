@@ -1,0 +1,106 @@
+[
+{
+"test_case": "TC1- By providing all mandatory fields",
+      "name": "Tester", 
+      "password": "test",
+      "Quantity":"10",
+      "Customer_Name":"Anuja",
+       "street":"Hyderabad",
+        "city":"Hyderabad",
+        "State":"Telangana",
+        "Zip":"500045",
+        "cardnumber":"123456789897",
+        "expdate":"19/26",
+        "ExpectedResult1": "New order has been successfully added."
+
+
+},
+
+{
+"test_case": "TC2 Without providing Customer Name",
+      "name": "Tester", 
+      "password": "test",
+      "Quantity":"7",
+      "street":"Hyderabad",
+      "city":"Hyderabad",
+        "State":"Telangana",
+        "Zip":"500045",
+        "cardnumber":"123456789897",
+        "expdate":"19/26",
+        "Customer_Name":"",
+        "ExpectedResult2": "Field 'Customer name' cannot be empty."
+},
+{
+"test_case": "TC3 Without providing street",
+      "name": "Tester", 
+      "password": "test",
+      "Quantity":"9",
+      "Customer_Name":"Anuja",
+       "street":"",
+        "city":"Hyderabad",
+        "State":"Telangana",
+        "Zip":"500045",
+        "cardnumber":"123456789897",
+        "expdate":"19/26",
+        "ExpectedResult3": "Field 'Street' cannot be empty."
+},
+{
+"test_case": "TC4 Without providing City",
+      "name": "Tester", 
+      "password": "test",
+      "Quantity":"6",
+      "Customer_Name":"Anuja",
+       "street":"Hyderabad",
+        "city":"",
+        "State":"Telangana",
+        "Zip":"500045",
+        "cardnumber":"123456789897",
+        "expdate":"19/26",
+        "ExpectedResult4": "Field 'City' cannot be empty."
+},
+
+{
+"test_case": "TC5 Without providing Zip Code",
+      "name": "Tester", 
+      "password": "test",
+      "Quantity":"8",
+      "Customer_Name":"Anuja",
+       "street":"Hyderabad",
+        "city":"Hyderabad",
+        "State":"Telangana",
+        "Zip":"",
+        "cardnumber":"123456789897",
+        "expdate":"19/26",
+        "ExpectedResult5": "Field 'Zip' cannot be empty."
+},
+{
+"test_case": "TC6 Without providing card number",
+      "name": "Tester", 
+      "password": "test",
+      "Quantity":"8",
+      "Customer_Name":"Anuja",
+       "street":"Hyderabad",
+        "city":"Hyderabad",
+        "State":"Telangana",
+        "Zip":"500067",
+        "cardnumber":"",
+        "expdate":"19/26",
+        "ExpectedResult6": "Field 'Card Nr' cannot be empty."
+},
+{
+    "test_case": "TC7 Without providing exp date",
+      "name": "Tester", 
+      "password": "test",
+      "Quantity":"8",
+      "Customer_Name":"Anuja",
+       "street":"Hyderabad",
+        "city":"Hyderabad",
+        "State":"Telangana",
+        "Zip":"600786",
+        "cardnumber":"123456789897",
+        "expdate":"",
+        "ExpectedResult7": "Field 'Expire date' cannot be empty."
+}
+
+
+]
